@@ -1,10 +1,39 @@
+# Project description
+The Mobile VR Camera is an app for Android devices that easily allows for conversion of any pair of smartphones into a stereoscopic camera system. After connecting two phones via Bluetooth, photos can be taken by simply holding the devices in parallel towards your desired target and pressing the trigger button. The app will then create your VR-suitable image.
+Easily create VR-suitable photos and show them your friends. Never miss out on the opportunity to capture your most precious moments and relive them in Virtual Reality with the help of the Mobile VR Camera!
+
+# How to install MobileVRCamera
+Connect your phone to your laptop/computer:
+Variant 1 (APK):
+
+Transfer the MobileVRCamera.apk to your smartphone
+
+Example: Internal storage\Download
+
+
+Locate and open the .apk file in the storage (typically called "My Files")
+Allow apps from unknown sources
+Install MobileVRCamera.apk
+
+Variant 2 (Android Studio):
+
+Open the MobileVRCamera project in Android Studio
+Allow USB debugging on your smartphone in developer settings
+
+https://www.digitaltrends.com/mobile/how-to-get-developer-options-on-android/
+
+
+Allow access to your data on your smartphone
+Select your smartphone in the run configuration in Android Studio
+Run the project
+
 # MobileVRCamera Data protection
 
 MobileVRCamera is developed by Felix and Christian
 
 MobileVRCamera accesses and records camera sensor and microphone data, which is used for the purpose of taking photos, to fulfil its purpose as a camera. Microphone permission had to be asked to use the camera features we need.
 
-MobileVRCamera requires permission (at least for Android 9 and earlier) to "access photos, media and files on your devices" (storage permission), as this permission is required for Android to save resultant files such as photos and videos to your device.
+MobileVRCamera requires permission to "access photos, media and files on your devices" (storage permission), as this permission is required for Android to save resultant files such as photos and videos to your device.
 
 Bluetooth permissions are used to allow the stereo image caputure feature to discover and connect to Bluetooth devices; the Bluetooth remote control feature also requires location permission (on Android 11 or earlier) or Nearby Devices permission (on Android 12 or later).
 
